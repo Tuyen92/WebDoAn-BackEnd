@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.demo_WebKhoaLuan_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.demo.WebKhoaLuan.model.Tongketkhoaluan</class>
+    <class>com.demo.WebKhoaLuan.model.Quantri</class>
+    <class>com.demo.WebKhoaLuan.model.Sinhvien</class>
+    <class>com.demo.WebKhoaLuan.model.Tieuchi</class>
+    <class>com.demo.WebKhoaLuan.model.Khoa</class>
+    <class>com.demo.WebKhoaLuan.model.Giangvien</class>
+    <class>com.demo.WebKhoaLuan.model.Khoaluan</class>
+    <class>com.demo.WebKhoaLuan.model.Nganh</class>
+    <class>com.demo.WebKhoaLuan.model.Dangkykhoaluan</class>
+    <class>com.demo.WebKhoaLuan.model.Nguoidung</class>
+    <class>com.demo.WebKhoaLuan.model.Chucvu</class>
+    <class>com.demo.WebKhoaLuan.model.Hoidong</class>
+    <class>com.demo.WebKhoaLuan.model.Chitiethoidong</class>
+    <class>com.demo.WebKhoaLuan.model.Detai</class>
+    <class>com.demo.WebKhoaLuan.model.Giaovu</class>
+    <class>com.demo.WebKhoaLuan.model.Diem</class>
+    <class>com.demo.WebKhoaLuan.model.Khoaluan_1</class>
+    <class>com.demo.WebKhoaLuan.model.Tieuchi_1</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/khoaluantotnghiepdb?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="091420"/>
+    </properties>
+  </persistence-unit>
+</persistence>
